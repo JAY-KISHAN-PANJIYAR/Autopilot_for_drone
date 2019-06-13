@@ -53,7 +53,7 @@ def arm_and_takeoff(altitude):
  #-- Define the function for sending mavlink velocity command in body frame
 def set_velocity_body(vehicle, vx, vy, vz):
     """ Remember: vz is positive downward!!!
-    http://ardupilot.org/dev/docs/copter-commands-in-guided-mode.html
+    
     
     Bitmask to indicate which dimensions should be ignored by the vehicle 
     (a value of 0b0000000000000000 or 0b0000001000000000 indicates that 
@@ -104,56 +104,3 @@ root = tk.Tk()
 print(">> Control the drone with the arrow keys. Press r for RTL mode")
 root.bind_all('<Key>', key)
 root.mainloop()
- 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-      

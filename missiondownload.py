@@ -51,7 +51,6 @@ def clear_mission(vehicle):
 
     # After clearing the mission you MUST re-download the mission from the vehicle
     # before vehicle.commands can be used again
-    # (see https://github.com/dronekit/dronekit-python/issues/230)
     cmds = vehicle.commands
     cmds.download()
     cmds.wait_ready()
@@ -200,56 +199,3 @@ while True:
     
     
     time.sleep(0.5)
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-      
