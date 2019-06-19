@@ -20,7 +20,7 @@ import tkinter as tk
 
 #-- Connect to the vehicle
 print('Connecting...')
-connection_string ='127.0.0.1:14551'
+connection_string ='127.0.0.1:14552'
 vehicle = connect(connection_string, wait_ready=True)
 
 #-- Setup the commanded flying speed
